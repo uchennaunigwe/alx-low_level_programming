@@ -5,7 +5,7 @@
 
 #endif
 /**
- * print_alphabet - Entrypoint
+ * print_alphabet_x10 - Entrypoint
  * Return: Always 0 (sucess)
  */
 void print_alphabet_x10(void)
