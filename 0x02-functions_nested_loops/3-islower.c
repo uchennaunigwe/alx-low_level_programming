@@ -7,9 +7,10 @@
 #endif
 /**
  * _islower - Entrypoint
- * Return: Always 0 (sucess)
+ * c - Evaluated value
+ * Return: Always 1 (sucess) 
  */
 int _islower(int c)
 {
-	return islower(c);
+	return (islower(c));
 }
