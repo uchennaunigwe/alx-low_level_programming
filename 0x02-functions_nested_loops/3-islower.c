@@ -7,7 +7,7 @@
 #endif
 /**
  * _islower - Entrypoint
- * c - Evaluated value
+ * C - Evaluated value
  * Return: Always 1 (sucess)
  */
 int _islower(int c)
