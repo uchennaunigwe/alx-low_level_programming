@@ -7,8 +7,10 @@
 #endif
 /**
  * _islower - Entrypoint
- * C - Evaluated value
- * Return: Always 1 (sucess)
+ * @c - Evaluated value
+ *
+ * Return: On sucess 1.
+ * On failure, -1
  */
 int _islower(int c)
 {
