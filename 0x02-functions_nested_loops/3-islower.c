@@ -19,10 +19,10 @@ int _islower(int c)
 	r = islower(c);
 	if (r == 0)
 	{
-		return(0);
+		return (0);
 	}
-	else 
+	else
 	{
-		return(1);
+		return (1);
 	}
 }
