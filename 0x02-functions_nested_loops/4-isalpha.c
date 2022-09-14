@@ -6,7 +6,7 @@
 
 #endif
 /**
- * _islower - Entrypoint
+ * _isalpha - Entrypoint
  * @c: Evaluated value
  *
  * Return: On sucess 1.
