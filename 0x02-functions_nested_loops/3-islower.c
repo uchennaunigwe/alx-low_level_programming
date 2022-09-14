@@ -8,7 +8,7 @@
 /**
  * _islower - Entrypoint
  * c - Evaluated value
- * Return: Always 1 (sucess) 
+ * Return: Always 1 (sucess)
  */
 int _islower(int c)
 {
