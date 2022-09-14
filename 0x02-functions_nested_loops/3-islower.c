@@ -7,7 +7,7 @@
 #endif
 /**
  * _islower - Entrypoint
- * @c - Evaluated value
+ * @c: Evaluated value
  *
  * Return: On sucess 1.
  * On failure, -1
