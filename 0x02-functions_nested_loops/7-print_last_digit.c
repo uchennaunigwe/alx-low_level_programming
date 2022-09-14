@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+#include <stdlib.h>
 #include "main.h"
 
 #endif
@@ -13,5 +14,10 @@
  */
 int print_last_digit(int n)
 {
-	return (n % 10);
+	int r;
+
+	r = abs(n);
+	r = r % 10;
+	_putchar(r + '0');
+	return (r);
 }
