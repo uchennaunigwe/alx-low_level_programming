@@ -5,12 +5,12 @@
 
 #endif
 /**
- * print_diagonal - Entrypoint
+ * print_square - Entrypoint
  * @n: number of lines to draw
  * Return: On sucess 1.
  * On failure, -1
  */
-void print_diagonal(int n)
+void print_square(int n)
 {
 	int i, j;
 
