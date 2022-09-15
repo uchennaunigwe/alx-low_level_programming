@@ -12,14 +12,22 @@
  */
 void more_numbers(void)
 {
-	int i, j;
+	int i, j, t, u;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 15; j++)
 		{
-			_putchar(j + '0');
+			t = j/10;
+			u = j%10;
+			if (t != 0)
+			{
+				_putchar(t + '0');
+			}
+			_putchar(u + '0');
+			
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
+
 }
