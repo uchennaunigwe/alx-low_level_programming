@@ -18,14 +18,13 @@ void more_numbers(void)
 	{
 		for (j = 0; j < 15; j++)
 		{
-			t = j/10;
-			u = j%10;
+			t = j / 10;
+			u = j % 10;
 			if (t != 0)
 			{
 				_putchar(t + '0');
 			}
 			_putchar(u + '0');
-			
 		}
 		_putchar('\n');
 	}
