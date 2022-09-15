@@ -5,14 +5,14 @@
 
 #endif
 /**
- * print_line - Entrypoint
+ * print_diagonal - Entrypoint
  * @n: number of lines to draw
  * Return: On sucess 1.
  * On failure, -1
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i < n; i++)
 	{
@@ -21,6 +21,7 @@ void print_line(int n)
 			_putchar(' ');
 		}
 		_putchar('\\');
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
