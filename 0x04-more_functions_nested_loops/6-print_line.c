@@ -6,7 +6,7 @@
 #endif
 /**
  * print_line - Entrypoint
- *
+ * @n: number of lines to draw
  * Return: On sucess 1.
  * On failure, -1
  */
