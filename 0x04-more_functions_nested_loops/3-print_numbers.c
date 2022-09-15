@@ -6,8 +6,6 @@
 #endif
 /**
  * print_numbers - Entrypoint
- * @a: value 1
- * @b: value 2
  *
  * Return: On sucess 1.
  * On failure, -1
