@@ -1,17 +1,16 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strncat - Join pointers
+ * _strcmp - Join pointers
  * @dest: dest
  * @src: src
- * @n: n
  * Return: joined string
  */
 
-char *_strncat(char *dest, char *src, int n)
+int _strcmp(char *dest, char *src)
 {
-	char *ptr;
+	int ptr;
 
-	ptr = strncat(dest, src, n);
+	ptr = strcmp(dest, src);
 	return (ptr);
 }
