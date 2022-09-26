@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _memset - Join pointers
+ * _memcpy - Join pointers
  * @dest: dest
  * @src: src
  * @n: n
