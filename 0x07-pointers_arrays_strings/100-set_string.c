@@ -2,10 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * print_diagsums - Join pointers
- * @a: string
- * @size: search character
- * Return: joined string
+ * set_string - Join pointers
+ * @s: string
+ * @to: search character
  */
 
 void set_string(char **s, char *to)
