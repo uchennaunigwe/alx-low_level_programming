@@ -12,7 +12,14 @@ void puts_half(char *c)
 	char temp;
 
 	len = strlen(c);
-	n = len / 2;
+	if (len % 2 == 0)
+	{
+		n = len / 2;
+	}
+	else
+	{
+		n = (len / 2) + 1;
+	}
 	for (i = 0; i < len / 2 ; i++)
 	{
 		temp = *(c + i + n);
