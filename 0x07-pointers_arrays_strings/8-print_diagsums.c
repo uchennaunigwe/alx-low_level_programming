@@ -10,13 +10,11 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, sum1, sum2, u1, u2;
+	int i, sum1, sum2;
 	int *d1, *d2;
 
 	sum1 = 0;
 	sum2 = 0;
-	u1 = 0;
-	u2 = 0;
 	for (i = 0; i < size; i++)
 	{
 		d1 = a + (i * size + i);
@@ -24,19 +22,6 @@ void print_diagsums(int *a, int size)
 		sum1 = sum1 + *d1;
 		sum2 = sum2 + *d2;
 	}
-	do
-	{
-		u1 = sum1 % 10;
-		sum1 = sum1 / 10;
-		_putchar (u1);
-	} while (sum1 > 0);
-	_putchar (',');
-	do
-	{
-		u2 = sum2 % 10;
-		sum2 = sum2 / 10;
-		_putchar (u2);
-	} while (sum2 > 0);
-	_putchar ('\n');
+	printf ("%d, %d\n", sum1, sum2);
 
 }
