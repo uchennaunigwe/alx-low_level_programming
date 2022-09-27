@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdio.h>
 /**
- * puts_half - print  string
+ * print_array - print  string
  * @a: array of int to print
  * @n: number of element to print
  */
