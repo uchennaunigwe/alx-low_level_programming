@@ -4,6 +4,7 @@
 /**
  * _strlen_recursion - Entry
  * @s: operand
+ * Return: Me
  */
 
 int _strlen_recursion(char *s)
@@ -14,7 +15,7 @@ int _strlen_recursion(char *s)
 
 	if (len == 0)
 	{
-		return 0;
+		return (0);
 	}
 	else
 	{
