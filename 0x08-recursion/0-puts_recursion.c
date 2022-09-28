@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _puts_recurtion - Entry
+ * _puts_recursion - Entry
  * @s: operand
  */
 
