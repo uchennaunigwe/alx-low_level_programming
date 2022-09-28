@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _pow_recursion - Entry
+ * is_prime_number - Entry
  * @n: operand
  * Return: Me
  */
